@@ -61,29 +61,41 @@ setTimeout(function() {
 }, 3000);
 </script>
 
-<div class="d-flex justify-content-between align-items-center mb-4">
+<div class="rounded-4 shadow-sm p-4 mb-4 border" style="background-color: #e9ecef;">
 
-    <div>
-        <h1 class="mb-1">Admin</h1>
-        <p class="text-muted mb-0">Autode haldamine</p>
-    </div>
+    <div class="d-flex justify-content-between align-items-center">
 
-    <div>
-        <a href="index.php" class="btn btn-outline-secondary me-2">
-            Avaleht
-        </a>
+        <div>
+            <h2 class="fw-bold mb-1">
+                Admin
+            </h2>
 
-        <a href="logout.php" class="btn btn-danger">
-            Logi välja
-        </a>
+            <p class="text-muted mb-0">
+                CarRent autode haldamine
+            </p>
+        </div>
+
+        <div class="d-flex gap-2">
+
+            <a href="lisa.php" class="btn btn-success">
+                + Lisa auto
+            </a>
+
+            <a href="index.php" class="btn btn-outline-secondary">
+                Avaleht
+            </a>
+
+            <a href="logout.php" class="btn btn-danger">
+                Logi välja
+            </a>
+
+        </div>
+
     </div>
 
 </div>
 
-<h1>Admin</h1>
-<a href="lisa.php" class="btn btn-success mb-3">
-    + Lisa auto
-</a>
+
 
 <table class="table table-striped table-hover table-bordered shadow bg-white">
     <tr>
