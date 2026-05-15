@@ -26,7 +26,7 @@ Dockeril põhinev PHP ja MySQL veebirakendus automüügi haldamiseks.
 ### 1. Klooni projekt
 
 ```bash
-git clone https://github.com/sigridlillep/CarRent.git
+git clone https://github.com/SigridLillep/CarRent.git
 ```
 
 ### 2. Liigu projekti kausta
